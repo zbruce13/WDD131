@@ -3,40 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zach’s Home Page</title>
+  <title>Zach's Home Page</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>Welcome to Zach’s Home Page</h1>
+    <h1>Welcome to Zach's Home Page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html" class="active">Home</a>
-    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-    <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a>
-  </nav>
-
   <main>
-    <section>
+    <section class="intro">
       <h2>About Me</h2>
-      <p>Hello! My name is Zach, and this is my personal home page for WDD131. 
-         I enjoy learning about web development and creating simple, clean projects. 
-         This site will grow as I add more assignments and practice web design skills.</p>
-      <img src="images/photo1.jpg" alt="Photo of Zach">
+      <p>Hi, my name is Zach. I’m currently learning web development and working on building my skills in HTML, CSS, and JavaScript.</p>
+      <img src="photo1.jpg" alt="Photo of Zach">
     </section>
 
-    <section>
-      <h2>Where I Live</h2>
-      <p>I am currently living in the Philippines. Below is a photo representing Manila:</p>
-      <img src="images/Manila.webp" alt="Scenic view of Manila">
+    <section class="location">
+      <h2>Where I'm From</h2>
+      <p>I’m from Manila, Philippines. It’s a lively city with a rich history and vibrant culture.</p>
+      <img src="Manila.webp" alt="View of Manila">
+    </section>
+
+    <section class="goals">
+      <h2>My Goals</h2>
+      <p>My goal is to become a professional web developer and create websites and apps that are useful, creative, and impactful.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> | Zach | WDD 131</p>
-    <p>Last Modified: <span id="lastModified"></span></p>
+    <p>&copy; 2025 Zach's Home Page</p>
   </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
