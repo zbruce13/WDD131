@@ -1,41 +1,41 @@
 #temple-cards {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr;
-    padding: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
-    #temple-cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  #temple-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 1200px) {
-    #temple-cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  #temple-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 #temple-cards figure {
-    margin: 0;
-    background: white;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 0;
+  background: white;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #temple-cards figure img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
 }
 
 #temple-cards figure figcaption {
-    font-weight: bold;
-    line-height: 1.3;
-    font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.3;
+  font-size: 0.95rem;
 }
