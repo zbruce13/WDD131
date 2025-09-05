@@ -1,3 +1,5 @@
+console.log("JS is running!");
+
 const tempElement = document.getElementById("temperature");
 
 const temperature = 29;
